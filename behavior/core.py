@@ -13,6 +13,11 @@ def abort(tree, reason):
     raise NotImplementedError("abort 尚未实现")
 
 
+def load_tree(path):
+    """读入与落盘辅助"""
+    raise NotImplementedError("load_tree 尚未实现")
+
+
 class Node:
     """class"""
 
