@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "final_status": "success",
+    "cleanups": 3,
+    "ticks": 3,
+    "trace_len": 14
+  },
+  "trace": [
+    {
+      "tick": 1,
+      "node": "selector",
+      "from": "idle",
+      "to": "running",
+      "reason": "tick"
+    },
+    {
+      "tick": 1,
+      "node": "sequence",
+      "from": "idle",
+      "to": "running",
+      "reason": "tick"
+    },
+    {
+      "tick": 1,
+      "node": "patrol",
+      "from": "idle",
+      "to": "running",
+      "reason": "tick"
+    },
+    {
+      "tick": 1,
+      "node": "selector",
+      "from": "running",
+      "to": "idle",
+      "reason": "abort:preempt"
+    },
+    {
+      "tick": 1,
+      "node": "sequence",
+      "from": "running",
+      "to": "idle",
+      "reason": "abort:preempt"
+    },
+    {
+      "tick": 1,
+      "node": "patrol",
+      "from": "running",
+      "to": "idle",
+      "reason": "abort:preempt"
+    },
+    {
+      "tick": 2,
+      "node": "selector",
+      "from": "idle",
+      "to": "running",
+      "reason": "tick"
+    },
+    {
+      "tick": 2,
+      "node": "sequence",
+      "from": "idle",
+      "to": "running",
+      "reason": "tick"
+    },
+    {
+      "tick": 2,
+      "node": "patrol",
+      "from": "idle",
+      "to": "running",
+      "reason": "tick"
+    },
+    {
+      "tick": 2,
+      "node": "patrol",
+      "from": "running",
+      "to": "success",
+      "reason": "complete"
+    },
+    {
+      "tick": 2,
+      "node": "attack",
+      "from": "idle",
+      "to": "running",
+      "reason": "tick"
+    },
+    {
+      "tick": 3,
+      "node": "attack",
+      "from": "running",
+      "to": "success",
+      "reason": "complete"
+    },
+    {
+      "tick": 3,
+      "node": "sequence",
+      "from": "running",
+      "to": "success",
+      "reason": "complete"
+    },
+    {
+      "tick": 3,
+      "node": "selector",
+      "from": "running",
+      "to": "success",
+      "reason": "child-succeeded"
+    }
+  ]
+}
