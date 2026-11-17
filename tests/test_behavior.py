@@ -5,6 +5,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import behavior as mod  # noqa: E402
+behavior = mod
 
 def read_text(path):
     with open(path, encoding="utf-8") as f:
