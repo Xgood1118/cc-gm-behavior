@@ -1,0 +1,1 @@
+{"type":"selector","children":[{"type":"sequence","children":[{"type":"leaf","name":"patrol"},{"type":"leaf","name":"attack"}]},{"type":"leaf","name":"idle"}]}
